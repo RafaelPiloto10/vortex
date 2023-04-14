@@ -8,7 +8,8 @@ Challenge solutions to [https://fly.io/dist-sys/](https://fly.io/dist-sys/) dist
 
 ## How to run
 
-...
+Generally, using: `bazel run --config=gcc12 <TARGET>`
+- echo: `bazel run --config=gcc12 //src/echo:echo`
 
 ## Helpful Links
 
